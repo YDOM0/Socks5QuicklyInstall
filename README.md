@@ -5,3 +5,5 @@
 EC2
   
 命令为：curl -fsSL -o sqi.sh https://raw.githubusercontent.com/YDOM0/Socks5QuicklyInstall/main/sqi.sh && chmod +x sqi.sh
+222 : wget -O sqi.sh https://raw.githubusercontent.com/YDOM0/Socks5QuicklyInstall/main/sqi.sh
+
